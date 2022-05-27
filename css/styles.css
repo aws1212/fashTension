@@ -1,0 +1,296 @@
+.body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerPage {
+    width: 100%;
+    height: 35%;
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: beige;
+    display: flex;
+}
+
+.namePlayer {
+    width: 60%;
+    height: 100%;
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #c44;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.divNamePlayer {
+    width: 100%;
+    height: 30%;
+}
+
+.divPointsPlayer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.pointsPlayers {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    font-size: 2vw;
+    font-family: monospace;
+    border: 2px solid #888;
+    box-sizing: border-box;
+}
+
+.lblPplayer {
+    width: 100%;
+    height: 10%;
+}
+
+.resultPlayer {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #888;
+}
+
+.btnReset {
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+    border: none;
+    cursor: pointer;
+    font-size: 2vw;
+    font-family: monospace;
+    display: none;
+}
+
+.txt_namePlayer {
+    font-family: monospace;
+    background-color: teal;
+    font-size: 4vw;
+}
+
+.responsePlayer {
+    width: 40%;
+    height: 100%;
+    margin: 0px;
+    padding: 5px;
+    border-radius: 20vw;
+    box-sizing: border-box;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+}
+
+.topResponse {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+
+.div_True {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #f76;
+}
+
+.div_False {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: #0ff;
+}
+
+.bottomResponse {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.secondsTime {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+}
+
+.txtSeconds,
+.txtPoints,
+.txtmiliSeconds {
+    font-size: 5vw;
+    font-family: Verdana;
+}
+
+.pointsTime {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+
+.milsecondsTime {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+}
+
+.footerPage {
+    width: 100%;
+    height: 65%;
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: blueviolet;
+    display: flex;
+}
+
+.colorView {
+    width: 60%;
+    height: 100%;
+    background-color: blueviolet;
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.divData {
+    width: 100%;
+    height: 20%;
+    background-color: khaki;
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.txtName {
+    resize: none;
+    width: 100%;
+    height: 100%;
+    font-size: 4vw;
+    font-family: cursive;
+    text-align: center;
+}
+
+.btnPlay {
+    width: 100%;
+    height: 100%;
+    background-color: chocolate;
+    border: none;
+    cursor: pointer;
+    font-size: 4vw;
+    font-family: verdana;
+}
+
+.btnPlay:hover {
+    background-color: tomato;
+}
+
+.registerDiv {
+    width: 100%;
+    height: 100%;
+    background-color: thistle;
+    display: block;
+}
+
+.timeNextPlayer {
+    width: 100vw;
+    height: 30vh;
+    margin: 15vh 10px;
+    background-color: #f76;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: center;
+    font-size: 3.5vh;
+    font-family: monospace;
+    display: none;
+}
+
+.colorChange {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    margin: 0px;
+    border: 2px solid rgb(153, 150, 136);
+    box-sizing: border-box;
+    display: none;
+    background-color: #f76;
+}
+
+.colorFastDiv {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 4px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+
+.buttonsColor {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(160, 100, 23);
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.btnOne {
+    width: 100%;
+    height: 33%;
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.btnTwo {
+    width: 100%;
+    height: 33%;
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.btnThree {
+    width: 100%;
+    height: 33%;
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.classClick {
+    width: 33%;
+    height: 100%;
+    border-radius: 5vw;
+    border-style: ridge;
+    border-color: aquamarine;
+    cursor: pointer;
+    background-color: #c44;
+}
